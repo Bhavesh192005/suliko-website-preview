@@ -27,14 +27,24 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${playfair.variable}`}>
-      <body className="font-sans antialiased">
+    <html lang="en">
+      <body>
         {children}
-        <Analytics />
+
+        <div style={{
+          textAlign: "center",
+          fontSize: "12px",
+          opacity: 0.6,
+          marginTop: "40px",
+          padding: "20px"
+        }}>
+          Independent Concept Proposal – Not affiliated with or endorsed by Suliko.
+        </div>
+
       </body>
     </html>
   )
