@@ -1,4 +1,4 @@
-export function Footer() {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            export function Footer() {
   return (
     <footer className="border-t border-border bg-background py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -79,6 +79,9 @@ export function Footer() {
           </p>
         </div>
       </div>
+      <div className="mt-8 text-center text-xs text-muted-foreground">
+  Independent Concept Proposal – Not affiliated with or endorsed by Suliko.
+</div> 
     </footer>
   )
 }
